@@ -1,7 +1,10 @@
 .intro {
   display: flex;
+  flex-direction: column;
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   height: 750px;
   width: 100vw;
   align-items: center;
@@ -85,24 +88,28 @@
   }
 
   .html-color {
-    background-color: var(--color-red);
+    filter: var(--filter-red);
   }
 
   .css-color {
-    background-color: var(--color-blue);
+    filter: var(--filter-blue);
   }
 
   .js-color {
-    background-color: var(--color-yellow);
+    filter: var(--filter-yellow);
+
   }
 
   .react-color {
-    background-color: var(--color-blue);
+    filter: var(--filter-blue);
+
   }
 
   .node-color {
-    background-color: var(--color-green);
+    filter: var(--filter-green);
   }
 }
 
-
+.double-down {
+  margin-bottom: 57px;
+}

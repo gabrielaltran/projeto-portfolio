@@ -27,10 +27,41 @@
   --font-maven: "Maven Pro", sans-serif;
   --maven-text-sm: 14px/140% var(--font-maven);
   --maven-text-md: 16px/1.4 var(--font-maven);
+
+  --filter-red : brightness(0) saturate(100%) invert(45%) sepia(80%) saturate(492%) hue-rotate(307deg) brightness(97%) contrast(83%);
+  --filter-purple : brightness(0) saturate(100%) invert(74%) sepia(35%) saturate(7498%) hue-rotate(228deg) brightness(93%) contrast(97%);
+  --filter-blue : brightness(0) saturate(100%) invert(53%) sepia(60%) saturate(582%) hue-rotate(165deg) brightness(90%) contrast(91%);
+  --filter-green : brightness(0) saturate(100%) invert(68%) sepia(36%) saturate(618%) hue-rotate(49deg) brightness(93%) contrast(86%);
+  --filter-yellow : brightness(0) saturate(100%) invert(89%) sepia(47%) saturate(7155%) hue-rotate(314deg) brightness(102%) contrast(84%);
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+  "travelgram tech-news pagina-receita"
+  "zingen refund pagina-turismo";
+  gap: 24px;
+
+  p {
+    font: var(--asap-title-sm);
+    color: var(--gray-600);
+  }
+
+  span {
+    font: var(--maven-text-sm);
+    color: var(--gray-500);
+  }
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    padding:
+  }
 }
 
