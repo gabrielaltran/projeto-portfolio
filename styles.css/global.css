@@ -65,3 +65,21 @@ a {
   }
 }
 
+.servicos-ofertados {
+  width: 100%;
+  max-width: 888px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  p {
+    font: var(--asap-title-sm);
+    color: var(--gray-600);
+  }
+
+  span {
+    font: var(--maven-text-sm);
+    color: var(--gray-500);
+  }
+}
+

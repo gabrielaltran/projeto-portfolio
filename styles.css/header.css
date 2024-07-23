@@ -13,9 +13,9 @@
 
 .header-infos {
   width: 1040px;
-  align-items: center;
+  align-self: center;
   padding-inline: 180px;
-  padding-block: 120px 183px;
+  padding-block: 120px 94px;
 }
 
 .avatar {
@@ -112,4 +112,5 @@
 
 .double-down {
   margin-bottom: 57px;
+  animation: float 1s ease-in-out infinite;
 }
