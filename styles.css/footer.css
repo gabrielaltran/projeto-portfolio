@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  padding: 128px 120px 200px 120px;
+  gap: 48px;
+  font: var(--maven-text-md);
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  p {
+    color: var(--color-purple);
+    font: var(--subtitle);
+  }
+
+  h1 {
+    color: var(--gray-600);
+    font: var(--asap-tittle-md);
+  }
+
+  span {
+    color: var(--gray-500);
+    font: var(--maven-text-md);
+  }
+}
+
+
+
