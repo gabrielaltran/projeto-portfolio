@@ -1,0 +1,108 @@
+.intro {
+  display: flex;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  height: 750px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-infos {
+  width: 1040px;
+  align-items: center;
+  padding-inline: 180px;
+  padding-block: 120px 183px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+
+  .code-icon {
+    display: flex;
+    position: absolute;
+    width: 31px;
+    height: 25px;
+    align-self: flex-end;
+    margin-left: 70px;
+  }
+}
+
+.header-titles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  h1 {
+    font: var(--asap-title-lg);
+    color: var(--gray-600);
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    display: inline;
+    font: var(--subtitle);
+    color: var(--gray-500);
+    justify-content: center;
+    margin-bottom: 8px;
+  
+    span {
+      color: var(--color-red);
+    }
+  }
+
+  p {
+    display: flex;
+    font: var(--maven-text-sm);
+    color: var(--gray-400);
+    margin-bottom: 80px;
+  }
+}
+
+.tag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  
+  
+  .tag {
+    display: flex;
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    color: var(--gray-500);
+    font: var(--maven-text-md);
+    border-radius: 50px;
+    gap: 8px;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+  }
+
+  .html-color {
+    background-color: var(--color-red);
+  }
+
+  .css-color {
+    background-color: var(--color-blue);
+  }
+
+  .js-color {
+    background-color: var(--color-yellow);
+  }
+
+  .react-color {
+    background-color: var(--color-blue);
+  }
+
+  .node-color {
+    background-color: var(--color-green);
+  }
+}
+
+
