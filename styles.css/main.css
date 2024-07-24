@@ -37,13 +37,19 @@ main {
   justify-content: center;
   gap: 20px;
 
+  
   .text {
     display: flex;
     flex-direction: column;
     padding: 4px 4px;
     gap: 8px;
   }
-
+  
+  &:hover {
+    border: 1px solid var(--gray-400);
+    cursor: pointer;
+    top: -5px;
+  }
 }
 
 
